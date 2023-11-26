@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Order>
+  <Customer ID="123456">
+    <Name>John Doe</Name>
+    <Addresses>
+      <Address type="Home">
+        <Street>100 Main St</Street>
+        <City>Uppercase</City>
+        <State>PA</State>
+        <Zipcode>12345</Zipcode>
+      </Address>
+      <Address type="home">
+        <Street>100 Main St</Street>
+        <City>Lowercase</City>
+        <State>pa</State>
+        <Zipcode>12345</Zipcode>
+      </Address>
+      <Address type="business">
+        <Street>Business</Street>
+        <City>Lowercase</City>
+        <State>PA</State>
+        <Zipcode>12345</Zipcode>
+      </Address>
+    </Addresses>
+  </Customer>
+  <Items>
+    <Item>
+      <ProductID>1234</ProductID>
+      <Cost>123.50</Cost>
+    </Item>
+    <Item>
+      <ProductID>5678</ProductID>
+      <Cost>350.00</Cost>
+    </Item>
+  </Items>
+</Order>
